@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>24点</title>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <div style="font-size: 100px;">24点</div>
+        <h1>快速的飓风. © 2020</h1>
+        <br>
+        <button style="width: 100px; height: 100px; font-size: 75px;" id="num_1" onclick="num_1()">0</button>
+        <button style="width: 100px; height: 100px; font-size: 75px;" id="num_2" onclick="num_2()">0</button>
+        <button style="width: 100px; height: 100px; font-size: 75px;" id="num_3" onclick="num_3()">0</button>
+        <button style="width: 100px; height: 100px; font-size: 75px;" id="num_4" onclick="num_4()">0</button>
+        <br><br>
+        <button style="width: 75px; height: 50px; font-size: 35px;" onclick="plus()">+</button>
+        <button style="width: 75px; height: 50px; font-size: 35px;" onclick="minus()">-</button>
+        <button style="width: 75px; height: 50px; font-size: 35px;" onclick="multiply()">×</button>
+        <button style="width: 75px; height: 50px; font-size: 35px;" onclick="devide()">÷</button>
+        <br><br>
+        <button style="width: 75px; height: 50px; font-size: 35px; visibility: hidden;" onclick="multiplymultiply()"
+            id="multiplymultiply">!</button>
+        <button style="width: 75px; height: 50px; font-size: 35px;" onclick="left()">(</button>
+        <button style="width: 75px; height: 50px; font-size: 35px;" onclick="right()">)</button>
+        <button style="width: 75px; height: 50px; font-size: 35px;" onclick="sqrt()">√</button>
+        <br><br>
+        <textarea style="width: 600px; height: 150px; font-size: 30px;" id="expression"></textarea>
+        <br><br>
+        <button style="width: 200px; height: 50px; font-size: 30px;" onclick="AllClear()">全清</button>
+        <button style="width: 200px; height: 50px; font-size: 30px;" onclick="NewGame()">新游戏</button>
+        <button style="width: 200px; height: 50px; font-size: 30px;" onclick="submit();">提交</button>
+    </div>
+
+</body>
+<script src="src/randomNum.js"></script>
+<script src="src/input.js"></script>
+
+</html>
